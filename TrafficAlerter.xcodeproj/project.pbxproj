@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3174FF772044C95C00A1EE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3174FF762044C95C00A1EE8D /* AppDelegate.swift */; };
+		3174FF7C2044C95C00A1EE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3174FF7A2044C95C00A1EE8D /* Main.storyboard */; };
+		3174FF7E2044C95C00A1EE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3174FF7D2044C95C00A1EE8D /* Assets.xcassets */; };
+		3174FF812044C95C00A1EE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3174FF7F2044C95C00A1EE8D /* LaunchScreen.storyboard */; };
+		31D47B0F2059F61500E07D08 /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D47B0E2059F61500E07D08 /* DBService.swift */; };
+		31D47B11205AB9F000E07D08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31D47B10205AB9F000E07D08 /* GoogleService-Info.plist */; };
+		31D47B13205CAFCB00E07D08 /* MyRoutesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D47B12205CAFCB00E07D08 /* MyRoutesTableViewController.swift */; };
+		31D47B16205DF11C00E07D08 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D47B15205DF11C00E07D08 /* RoundedButton.swift */; };
+		31D47B18205F033C00E07D08 /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D47B17205F033C00E07D08 /* RouteCell.swift */; };
+		31F047B7205485B000D392E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F047B6205485B000D392E2 /* LoginViewController.swift */; };
+		31F047B92054888000D392E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F047B82054888000D392E2 /* HomeViewController.swift */; };
+		B8D1A75F48C4312BC5F58AAD /* Pods_TrafficAlerter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216B2548E240FFAC3F983E5B /* Pods_TrafficAlerter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		216B2548E240FFAC3F983E5B /* Pods_TrafficAlerter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrafficAlerter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3174FF732044C95C00A1EE8D /* TrafficAlerter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficAlerter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3174FF762044C95C00A1EE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3174FF7B2044C95C00A1EE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3174FF7D2044C95C00A1EE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3174FF802044C95C00A1EE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3174FF822044C95C00A1EE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D47B0E2059F61500E07D08 /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		31D47B10205AB9F000E07D08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31D47B12205CAFCB00E07D08 /* MyRoutesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutesTableViewController.swift; sourceTree = "<group>"; };
+		31D47B15205DF11C00E07D08 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		31D47B17205F033C00E07D08 /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		31F047B6205485B000D392E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		31F047B82054888000D392E2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B90AC2EEE05C6CB5B1456258 /* Pods-TrafficAlerter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficAlerter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrafficAlerter/Pods-TrafficAlerter.debug.xcconfig"; sourceTree = "<group>"; };
+		B97BC7FA558A936DD5EC9260 /* Pods-TrafficAlerter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficAlerter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrafficAlerter/Pods-TrafficAlerter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3174FF702044C95C00A1EE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D1A75F48C4312BC5F58AAD /* Pods_TrafficAlerter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1301B6E121FA5F3C5808A1F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B90AC2EEE05C6CB5B1456258 /* Pods-TrafficAlerter.debug.xcconfig */,
+				B97BC7FA558A936DD5EC9260 /* Pods-TrafficAlerter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3174FF6A2044C95C00A1EE8D = {
+			isa = PBXGroup;
+			children = (
+				3174FF752044C95C00A1EE8D /* TrafficAlerter */,
+				3174FF742044C95C00A1EE8D /* Products */,
+				1301B6E121FA5F3C5808A1F2 /* Pods */,
+				FCD4289101D8E1764CDB1BD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3174FF742044C95C00A1EE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3174FF732044C95C00A1EE8D /* TrafficAlerter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3174FF752044C95C00A1EE8D /* TrafficAlerter */ = {
+			isa = PBXGroup;
+			children = (
+				31D47B14205DB76A00E07D08 /* Services */,
+				31F047B52054854000D392E2 /* Controller */,
+				31F047B42054853B00D392E2 /* View */,
+				31F047B32054853200D392E2 /* Model */,
+				3174FF762044C95C00A1EE8D /* AppDelegate.swift */,
+				3174FF7A2044C95C00A1EE8D /* Main.storyboard */,
+				3174FF7D2044C95C00A1EE8D /* Assets.xcassets */,
+				3174FF7F2044C95C00A1EE8D /* LaunchScreen.storyboard */,
+				3174FF822044C95C00A1EE8D /* Info.plist */,
+				31D47B10205AB9F000E07D08 /* GoogleService-Info.plist */,
+			);
+			path = TrafficAlerter;
+			sourceTree = "<group>";
+		};
+		31D47B14205DB76A00E07D08 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				31D47B0E2059F61500E07D08 /* DBService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		31F047B32054853200D392E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31F047B42054853B00D392E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31D47B15205DF11C00E07D08 /* RoundedButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31F047B52054854000D392E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31F047B82054888000D392E2 /* HomeViewController.swift */,
+				31F047B6205485B000D392E2 /* LoginViewController.swift */,
+				31D47B12205CAFCB00E07D08 /* MyRoutesTableViewController.swift */,
+				31D47B17205F033C00E07D08 /* RouteCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCD4289101D8E1764CDB1BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216B2548E240FFAC3F983E5B /* Pods_TrafficAlerter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3174FF722044C95C00A1EE8D /* TrafficAlerter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3174FF852044C95C00A1EE8D /* Build configuration list for PBXNativeTarget "TrafficAlerter" */;
+			buildPhases = (
+				CB9BB30E0C069BE6EBEF1D92 /* [CP] Check Pods Manifest.lock */,
+				3174FF6F2044C95C00A1EE8D /* Sources */,
+				3174FF702044C95C00A1EE8D /* Frameworks */,
+				3174FF712044C95C00A1EE8D /* Resources */,
+				5A57592201CAA8681B62BDE9 /* [CP] Embed Pods Frameworks */,
+				66C6E50B18ABBAB2A100BE37 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficAlerter;
+			productName = TrafficAlerter;
+			productReference = 3174FF732044C95C00A1EE8D /* TrafficAlerter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3174FF6B2044C95C00A1EE8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jason Hoffman";
+				TargetAttributes = {
+					3174FF722044C95C00A1EE8D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3174FF6E2044C95C00A1EE8D /* Build configuration list for PBXProject "TrafficAlerter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3174FF6A2044C95C00A1EE8D;
+			productRefGroup = 3174FF742044C95C00A1EE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3174FF722044C95C00A1EE8D /* TrafficAlerter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3174FF712044C95C00A1EE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3174FF812044C95C00A1EE8D /* LaunchScreen.storyboard in Resources */,
+				31D47B11205AB9F000E07D08 /* GoogleService-Info.plist in Resources */,
+				3174FF7E2044C95C00A1EE8D /* Assets.xcassets in Resources */,
+				3174FF7C2044C95C00A1EE8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A57592201CAA8681B62BDE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrafficAlerter/Pods-TrafficAlerter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrafficAlerter/Pods-TrafficAlerter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C6E50B18ABBAB2A100BE37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrafficAlerter/Pods-TrafficAlerter-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrafficAlerter/Pods-TrafficAlerter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB9BB30E0C069BE6EBEF1D92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrafficAlerter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3174FF6F2044C95C00A1EE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D47B13205CAFCB00E07D08 /* MyRoutesTableViewController.swift in Sources */,
+				31D47B16205DF11C00E07D08 /* RoundedButton.swift in Sources */,
+				31F047B7205485B000D392E2 /* LoginViewController.swift in Sources */,
+				31D47B0F2059F61500E07D08 /* DBService.swift in Sources */,
+				3174FF772044C95C00A1EE8D /* AppDelegate.swift in Sources */,
+				31F047B92054888000D392E2 /* HomeViewController.swift in Sources */,
+				31D47B18205F033C00E07D08 /* RouteCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3174FF7A2044C95C00A1EE8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3174FF7B2044C95C00A1EE8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3174FF7F2044C95C00A1EE8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3174FF802044C95C00A1EE8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3174FF832044C95C00A1EE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3174FF842044C95C00A1EE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3174FF862044C95C00A1EE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90AC2EEE05C6CB5B1456258 /* Pods-TrafficAlerter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU5AWAYW87;
+				INFOPLIST_FILE = TrafficAlerter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHM.TrafficAlerter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3174FF872044C95C00A1EE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97BC7FA558A936DD5EC9260 /* Pods-TrafficAlerter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU5AWAYW87;
+				INFOPLIST_FILE = TrafficAlerter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHM.TrafficAlerter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3174FF6E2044C95C00A1EE8D /* Build configuration list for PBXProject "TrafficAlerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3174FF832044C95C00A1EE8D /* Debug */,
+				3174FF842044C95C00A1EE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3174FF852044C95C00A1EE8D /* Build configuration list for PBXNativeTarget "TrafficAlerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3174FF862044C95C00A1EE8D /* Debug */,
+				3174FF872044C95C00A1EE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3174FF6B2044C95C00A1EE8D /* Project object */;
+}
