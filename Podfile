@@ -12,5 +12,7 @@ target 'TrafficAlerter' do
   pod 'Firebase/Database'
   pod 'RevealingSplashView'
   pod 'GoogleSignIn'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
 
 end

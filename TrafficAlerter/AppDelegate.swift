@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import GoogleSignIn
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
@@ -22,7 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         Database.database().isPersistenceEnabled = true
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
-
+        
+        if let path = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist") {
+            if let dict = NSDictionary(contentsOfFile: path) as? Dictionary<String, Any> {
+                if let key = dict["API_KEY"] as? String {
+                    GMSServices.provideAPIKey(key)
+                }
+            }
+        }
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
